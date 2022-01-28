@@ -27,7 +27,9 @@ go get github.com/xuri/excelize/v2
 in the top of script you can set up parametrs for task:
 
 //==========================================================================
+
 //DB settings
+
 #it is default option for BD 
 var DB *pgxpool.Pool
 
@@ -52,7 +54,9 @@ var schema = "yourSchema" //Database Schema
 #it is Name of new Postgres Table
 var table = "yourTable" //Database Table
 //--------------------------------------------------------------------------
+
 //Excel settings
+
 #it is name of source xlsx file
 var fName = "yourxlsx.xlsx"
 
