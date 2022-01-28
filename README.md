@@ -49,10 +49,11 @@ var login = "YourLogin"
 var pass = "YourPassword"
 
 #it is Postgres DataBase schema
-var schema = "yourSchema" //Database Schema
+var schema = "yourSchema"
 
 #it is Name of new Postgres Table
-var table = "yourTable" //Database Table
+var table = "yourTable" 
+
 //--------------------------------------------------------------------------
 
 //Excel settings
@@ -68,5 +69,7 @@ var ex_header_row = 4 //row where located headler
 
 #it is num row where are content start  
 var ex_coutent_start_row = 5 
+
 //==========================================================================
+
 
